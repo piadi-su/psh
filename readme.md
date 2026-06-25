@@ -29,10 +29,9 @@ storage is in: ~/.config/psh/hosts.json
 
 ```bash
 git clone https://github.com/piadi-su/psh.git
-cd psh/scripts
+cd psh
 chmod +x installer.sh
 ./installer.sh
-./uninstaller.sh
 ```
 
 
