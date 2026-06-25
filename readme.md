@@ -1,7 +1,7 @@
 # psh
 
-this is just a simple ssh connection manager i made
-for practising with golang 
+a simple ssh connection manager I made to practice Go.
+ 
 
 ### usage
 
