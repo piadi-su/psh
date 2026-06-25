@@ -12,6 +12,7 @@ case "$CHOICE" in
         echo "Installing..."
 		go build -o psh ./src
 		sudo install -m 755 psh /usr/local/bin/psh
+		rm psh
 		echo "Done"
 
 
