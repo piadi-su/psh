@@ -141,7 +141,6 @@ func addHost() error {
 		
 	var new_host Host
 
-	// sta merda crea un lettore per avere tipo un input() di py
 	reader := bufio.NewReader(os.Stdin)
 
 	fmt.Print("hostname: ")
@@ -212,7 +211,6 @@ func connectToHost(hostname string) error {
 
 
 
-//TODO add list 
 
 func print_args(){
 	
@@ -238,7 +236,6 @@ func print_args(){
 
 
 func main() {
-    // fmt.Println(len(os.Args))
 
 	if len(os.Args) < 2 {
 		print_args()
